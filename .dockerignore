@@ -1,0 +1,12 @@
+# Exclude file yang gak perlu masuk ke Docker context
+target/
+.git/
+.gitignore
+.env
+*.md
+*.log
+*.rs.bk
+
+# Exclude folder tambahan
+.vscode/
+.idea/
