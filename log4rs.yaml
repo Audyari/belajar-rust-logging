@@ -1,0 +1,74 @@
+# log4rs.yaml
+refresh_rate: 30 seconds
+
+appenders:
+  # Console appender (tampil di terminal)
+  console:
+    kind: console
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S)} [{l}] {m}{n}"
+
+  # File appender (simpan ke file)
+  file:
+    kind: file
+    path: "app.log"
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S)} [{l}] {m}{n}"
+
+  # Rolling file appender (dikomentari dulu)
+  # rolling:
+  #   kind: rolling_file
+  #   path: "logs/app.log"
+  #   encoder:
+  #     pattern: "{d} [{l}] {m}{n}"
+  #   policy:
+  #     trigger:
+  #       kind: size
+  #       limit: 10_mb
+  #     roller:
+  #       kind: fixed_window
+  #       base: 1
+  #       pattern: "logs/app.{}.log"
+  #       count: 5
+
+# ============================================
+# ROOT LOGGER (Aturan untuk semua yang tidak punya logger khusus)
+# ============================================
+root:
+  level: info
+  appenders:
+    - console
+    - file
+
+# ============================================
+# LOGGERS (Aturan khusus per module)
+# ============================================
+loggers:
+  # Module bus_reguler: level debug, tampil di console
+  bus_reguler:
+    level: debug
+    appenders:
+      - console
+    additive: true # Juga ikut root (jadi log akan muncul 2x)
+
+  # Module logistik: level error, simpan ke file (tidak tampil di terminal)
+  logistik:
+    level: error
+    appenders:
+      - file
+    additive: false # TIDAK ikut root
+
+  # Module tiket: level trace, tampil di console + file
+  tiket:
+    level: trace
+    appenders:
+      - console
+      - file
+    additive: true
+
+  # Module maintenance: level warn, tampil di console
+  maintenance:
+    level: warn
+    appenders:
+      - console
+    additive: true

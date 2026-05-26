@@ -1,0 +1,36 @@
+2026-05-26 10:51:25 [INFO] 🚀 Aplikasi logging Rust dimulai!
+2026-05-26 10:51:25 [INFO] Hello, world!
+2026-05-26 10:51:25 [DEBUG] 🔍 Debug message - cek variabel
+2026-05-26 10:51:25 [WARN] ⚠️ Warning message - perhatian!
+2026-05-26 10:51:25 [ERROR] ❌ Error message - ada masalah!
+2026-05-26 10:51:25 [TRACE] 📝 Trace message - detail banget!
+2026-05-26 10:51:25 [INFO] Info nama: Ucup umur: 25
+2026-05-26 10:51:25 [DEBUG] Debug nama: Ucup umur: 25 (cek nilai)
+2026-05-26 10:51:25 [WARN] Warning nama: Ucup umur: 25
+2026-05-26 10:51:25 [ERROR] Error nama: Ucup umur: 25
+2026-05-26 10:51:25 [TRACE] Trace nama: Ucup umur: 25 (step by step)
+2026-05-26 10:51:25 [INFO] 🏁 Aplikasi selesai!
+2026-05-26 10:52:15 [INFO] 🚀 Aplikasi logging Rust dimulai!
+2026-05-26 10:52:15 [INFO] Hello, world!
+2026-05-26 10:52:15 [DEBUG] 🔍 Debug message - cek variabel
+2026-05-26 10:52:15 [WARN] ⚠️ Warning message - perhatian!
+2026-05-26 10:52:15 [ERROR] ❌ Error message - ada masalah!
+2026-05-26 10:52:15 [TRACE] 📝 Trace message - detail banget!
+2026-05-26 10:52:15 [INFO] Info nama: Ucup umur: 25
+2026-05-26 10:52:15 [DEBUG] Debug nama: Ucup umur: 25 (cek nilai)
+2026-05-26 10:52:15 [WARN] Warning nama: Ucup umur: 25
+2026-05-26 10:52:15 [ERROR] Error nama: Ucup umur: 25
+2026-05-26 10:52:15 [TRACE] Trace nama: Ucup umur: 25 (step by step)
+2026-05-26 10:52:15 [INFO] 🏁 Aplikasi selesai!
+2026-05-26 10:52:24 [INFO] 🚀 Aplikasi logging Rust dimulai!
+2026-05-26 10:52:24 [INFO] Hello, world!
+2026-05-26 10:52:24 [DEBUG] 🔍 Debug message - cek variabel
+2026-05-26 10:52:24 [WARN] ⚠️ Warning message - perhatian!
+2026-05-26 10:52:24 [ERROR] ❌ Error message - ada masalah!
+2026-05-26 10:52:24 [TRACE] 📝 Trace message - detail banget!
+2026-05-26 10:52:24 [INFO] Info nama: Ucup umur: 25
+2026-05-26 10:52:24 [DEBUG] Debug nama: Ucup umur: 25 (cek nilai)
+2026-05-26 10:52:24 [WARN] Warning nama: Ucup umur: 25
+2026-05-26 10:52:24 [ERROR] Error nama: Ucup umur: 25
+2026-05-26 10:52:24 [TRACE] Trace nama: Ucup umur: 25 (step by step)
+2026-05-26 10:52:24 [INFO] 🏁 Aplikasi selesai!
